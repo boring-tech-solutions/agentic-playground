@@ -1,0 +1,25 @@
+propose_task:
+  description: >
+    You are proposing the motion: {motion}. 
+    Come up with a clear argument in favor of the motion.
+    Be convincing.
+  expected_output: >
+    Your clear argument in favor of the motion.
+  agent: debater
+
+oppose_task:
+  description: >
+    You are opposing the motion: {motion}. 
+    Come up with a clear argument against the motion.
+    Be convincing.
+  expected_output: >
+    Your clear argument against the motion.
+  agent: debater
+
+adjudicate_task:
+  description: >
+    Carefully evaluate the arguments presented by both sides and determine which side made the most compelling case.
+  expected_output: >
+    A fully fledged report with main topics, with with a full section of information.
+    Formatted as markdown without '```'
+  agent: adjudicator
